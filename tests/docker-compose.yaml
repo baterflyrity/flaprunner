@@ -1,0 +1,9 @@
+services:
+    flaprunner:
+        restart: always
+        image:   baterflyrity/flaprunner
+        ports:
+            - 39393:39393
+
+        volumes:
+            - .:/projects

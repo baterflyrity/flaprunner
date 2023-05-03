@@ -1,0 +1,5 @@
+fastapi[all]
+typer[all]
+uvicorn
+subprocrunner
+loguru
