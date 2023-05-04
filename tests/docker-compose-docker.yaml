@@ -1,8 +1,9 @@
 services:
   flaprunner:
     restart: always
-    image: baterflyrity/flaprunner:latest
+    image: baterflyrity/flaprunner:latest-docker
     ports:
       - 39393:39393
     volumes:
       - .:/projects
+      - /var/run/docker.sock:/var/run/docker.sock

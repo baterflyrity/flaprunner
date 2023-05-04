@@ -1,1 +1,1 @@
-cat log.txt
+ls -1aR
