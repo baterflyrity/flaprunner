@@ -1,0 +1,8 @@
+# This is Flap Runner instance config
+# This config is extended and overriden by project's configs from <project>/.flaprunner/flaprunner.yaml
+
+# Access control section
+access:
+  auth_required: true # allow access without auth
+  tokens: # list of access tokens
+  - "my instance password"

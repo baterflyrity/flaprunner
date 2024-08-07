@@ -3,3 +3,4 @@ typer[all]
 uvicorn
 subprocrunner
 loguru
+pyyaml

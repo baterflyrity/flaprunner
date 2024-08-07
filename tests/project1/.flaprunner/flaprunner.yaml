@@ -1,0 +1,9 @@
+# This is Flap Runner project config
+# This config extends and overrides instance's config from <projects root>/flaprunner.yaml
+
+# Access control section
+# access:
+#   auth_required: false # allow access without auth
+#   tokens: # list of access tokens
+#   - "project1 password"
+asd
